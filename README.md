@@ -1,3 +1,10 @@
 # assignment-3
-tutedude assignment
-Follow the Python course - Module 4: Functions & Modules in Python for additional guidelines and examples.
+task1 1
+taking number from user 
+using for loop ranged 1 to user input
+print the result
+
+task 2
+Fist import maths than taking input from use
+than pefroming sqare root opration wirh user input
+tahn log and sine value and printing  value
