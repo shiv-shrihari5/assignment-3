@@ -1,14 +1,22 @@
 import math
-A =int(input("Enter a number"))
-#To find sqare root
-i=A/2
-print("thr Sqare root is: ",i)
-#To find nachrael log
-number = A
-natural_log = math.log(number)
-print(f"The  Natural logarithm of {number} is" ,natural_log)
-# to find sin value
-print("The value of sin is : ", math.sin(A))
 
+# Input from user
+A = int(input("Enter a number: "))
 
-      
+# Square root
+if A < 0:
+    print("Square root is not defined for negative numbers.")
+else:
+    sqrt_value = math.sqrt(A)
+    print("The square root is:", sqrt_value)
+
+# Natural log
+if A <= 0:
+    print("Natural logarithm is not defined for zero or negative numbers.")
+else:
+    natural_log = math.log(A)
+    print(f"The natural logarithm of {A} is:", natural_log)
+
+# Sin value (assuming input in degrees)
+sin_value = math.sin(math.radians(A))
+print(f"The value of sin({A} degrees) is:", sin_value)
