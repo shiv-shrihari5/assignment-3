@@ -10,5 +10,19 @@ It prints the result
 
 task 2
 Fist import maths than taking input from use
-than pefroming sqare root opration wirh user input
-tahn log and sine value and printing  value
+ Square Root Calculation
+ Computes the square root of the entered number.
+Uses math.sqrt() function to compute the square root.
+If the number is negative, it shows an error message because the square root of a negative number is not defined in real numbers.
+
+Natural Logarithm
+Calculates the natural logarithm (base e) of the entered number.
+Uses math.log() to compute the natural log.
+If the number is 0 or negative, it shows an error message, since the natural logarithm is undefined for those values.
+
+
+Sine Value (in Degrees) Finds the sine of the entered number, assuming the input is in degrees.
+First converts degrees to radians using math.radians() because math.sin() expects radians. Then it computes the sine.
+
+
+
