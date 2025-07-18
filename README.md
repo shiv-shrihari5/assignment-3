@@ -1,8 +1,12 @@
 # assignment-3
 task1 1
-taking number from user 
-using for loop ranged 1 to user input
-print the result
+The program takes a number n from the user.
+
+It calculates the factorial of n, which is the product of all integers from 1 to n.
+
+It prints the result 
+
+
 
 task 2
 Fist import maths than taking input from use
